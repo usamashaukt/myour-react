@@ -48,11 +48,11 @@ const Index = () => {
       <Education />
       <DesignSkills />
       <LanguagesSkills />
-      {/* <CodingSkills /> */}
-      {/* <Testimonials /> */}
-      {/* <Clients /> */}
-      {/* <Works /> */}
-      {/* <Contacts /> */}
+      <CodingSkills />
+      <Testimonials />
+      <Clients />
+      <Works />
+      <Contacts />
     </Layout>
   );
 };
