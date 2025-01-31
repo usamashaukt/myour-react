@@ -5,7 +5,7 @@
   overflow: hidden;
   list-style: none;
   padding: 0;
-  /* Fix of Webkit flickering */
+ 
   z-index: 1;
 }
 .swiper-container-no-flexbox .swiper-slide {

@@ -123,7 +123,7 @@ const Works = () => {
             <div className="box-item">
               <div className="image">
                 <a href="#gallery-1" className="has-popup-gallery">
-                  <img src="images/works/work1.jpg" alt="" />
+                  <img src="images/works/work11.jpg" alt="" />
                   <span className="info">
                     <span className="centrize full-width">
                       <span className="vertical-center">
@@ -133,10 +133,10 @@ const Works = () => {
                   </span>
                 </a>
                 <div id="gallery-1" className="mfp-hide">
-                  <a href="images/works/work1.jpg" />
-                  <a href="images/works/work2.jpg" />
-                  <a href="images/works/work3.jpg" />
-                  <a href="images/works/work4.jpg" />
+                  <a href="images/works/work11.jpg" />
+                  <a href="images/works/work22.jpg" />
+                  <a href="images/works/work33.jpg" />
+                  <a href="images/works/work44.jpg" />
                 </div>
               </div>
               <div className="desc">
@@ -154,7 +154,7 @@ const Works = () => {
                   href="https://www.youtube.com/embed/S4L8T2kFFck"
                   className="has-popup-video"
                 >
-                  <img src="images/works/work2.jpg" alt="" />
+                  <img src="images/works/work22.jpg" alt="" />
                   <span className="info">
                     <span className="centrize full-width">
                       <span className="vertical-center">
@@ -179,7 +179,7 @@ const Works = () => {
             <div className="box-item">
               <div className="image">
                 <a href="images/works/work7.jpg" className="has-popup-image">
-                  <img src="images/works/work7.jpg" alt="" />
+                  <img src="images/works/work33.jpg" alt="" />
                   <span className="info">
                     <span className="centrize full-width">
                       <span className="vertical-center">
@@ -204,7 +204,7 @@ const Works = () => {
             <div className="box-item">
               <div className="image">
                 <a href="images/works/work4.jpg" className="has-popup-image">
-                  <img src="images/works/work4.jpg" alt="" />
+                  <img src="images/works/work44.jpg" alt="" />
                   <span className="info">
                     <span className="centrize full-width">
                       <span className="vertical-center">
@@ -229,7 +229,7 @@ const Works = () => {
             <div className="box-item">
               <div className="image">
                 <a href="#gallery-2" className="has-popup-gallery">
-                  <img src="images/works/work5.jpg" alt="" />
+                  <img src="images/works/work22.jpg" alt="" />
                   <span className="info">
                     <span className="centrize full-width">
                       <span className="vertical-center">
@@ -260,7 +260,7 @@ const Works = () => {
                   href="https://w.soundcloud.com/player/?visual=true&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F221650664&show_artwork=true"
                   className="has-popup-music"
                 >
-                  <img src="images/works/work6.jpg" alt="" />
+                  <img src="images/works/work11.jpg" alt="" />
                   <span className="info">
                     <span className="centrize full-width">
                       <span className="vertical-center">
@@ -289,7 +289,7 @@ const Works = () => {
                   className="has-popup-link"
                   target="_blank"
                 >
-                  <img src="images/works/work3.jpg" alt="" />
+                  <img src="images/works/work33.jpg" alt="" />
                   <span className="info">
                     <span className="centrize full-width">
                       <span className="vertical-center">
@@ -311,7 +311,7 @@ const Works = () => {
             <div className="box-item">
               <div className="image">
                 <a href="#popup-1" className="has-popup-media">
-                  <img src="images/works/work8.jpg" alt="" />
+                  <img src="images/works/work22.jpg" alt="" />
                   <span className="info">
                     <span className="centrize full-width">
                       <span className="vertical-center">
@@ -330,7 +330,7 @@ const Works = () => {
               <div id="popup-1" className="popup-box mfp-fade mfp-hide">
                 <div className="content">
                   <div className="image">
-                    <img src="images/works/work8.jpg" alt="" />
+                    <img src="images/works/work44.jpg" alt="" />
                   </div>
                   <div className="desc">
                     <div className="category">Content</div>

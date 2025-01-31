@@ -30,7 +30,7 @@ const Testimonials = dynamic(() => import("@/src/components/Testimonials"), {
 const Index = () => {
   return (
     <Layout>
-      {/* Background */}
+  
       <div className="background-bg">
         <div className="background-filter">
           <div
@@ -39,7 +39,7 @@ const Index = () => {
           />
         </div>
       </div>
-      {/* sections */}
+
       <Started />
       <About />
       <Service />

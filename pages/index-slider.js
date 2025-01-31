@@ -41,7 +41,15 @@ const Index2 = () => {
               <div className="background-filter">
                 <div
                   className="background-img"
-                  style={{ backgroundImage: "url(images/girl.jpg)" }}
+                  style={{ backgroundImage: "url(images/man3.jpg)" }}
+                />kk
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="swiper-slide">
+              <div className="background-filter">
+                <div
+                  className="background-img"
+                  style={{ backgroundImage: "url(images/student-home2.jpg)" }}
                 />
               </div>
             </SwiperSlide>
@@ -49,15 +57,7 @@ const Index2 = () => {
               <div className="background-filter">
                 <div
                   className="background-img"
-                  style={{ backgroundImage: "url(images/girl3.jpg)" }}
-                />
-              </div>
-            </SwiperSlide>
-            <SwiperSlide className="swiper-slide">
-              <div className="background-filter">
-                <div
-                  className="background-img"
-                  style={{ backgroundImage: "url(images/girl2.jpg)" }}
+                  style={{ backgroundImage: "url(images/student-home2.jpg)" }}
                 />
               </div>
             </SwiperSlide>
@@ -67,7 +67,7 @@ const Index2 = () => {
 
       {/* sections */}
       <Started />
-      {/* <About />
+      <About />
       <Service />
       <Pricing />
       <Experience />
@@ -78,7 +78,7 @@ const Index2 = () => {
       <Testimonials />
       <Clients />
       <Works />
-      <Contacts /> */}
+      <Contacts />
     </Layout>
   );
 };

@@ -15,8 +15,8 @@ const Started = () => {
             {/* subtitle */}
             <div className="h-subtitles">
               <div className="h-subtitle typing-subtitle">
-                {/* <TypingAnimation /> */}
-                Consultant and Mentor, Web Designer, Programmer
+                <TypingAnimation />
+                {/* Consultant and Mentor, Web Designer, Programmer */}
               </div>
               <span className="typed-subtitle" />
             </div>

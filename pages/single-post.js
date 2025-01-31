@@ -158,7 +158,7 @@ const SinglePost = () => {
                           height={80}
                           width={80}
                           className="avatar avatar-80 photo"
-                          src="images/rev1.png"
+                          src="images/review-1.jpg"
                         />
                       </div>
                       <div className="comment-desc desc">
@@ -195,7 +195,7 @@ const SinglePost = () => {
                           height={80}
                           width={80}
                           className="avatar avatar-80 photo"
-                          src="images/rev1.png"
+                          src="images/review-1.jpg"
                         />
                       </div>
                       <div className="comment-desc desc">
@@ -232,7 +232,7 @@ const SinglePost = () => {
                           height={80}
                           width={80}
                           className="avatar avatar-80 photo"
-                          src="images/rev1.png"
+                          src="images/review-1.jpg"
                         />
                       </div>
                       <div className="comment-desc desc">

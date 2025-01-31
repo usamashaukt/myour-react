@@ -1,6 +1,6 @@
-// import About from "@/src/components/About";
-// import Contacts from "@/src/components/Contacts";
-// import Service from "@/src/components/Service";
+import About from "@/src/components/About";
+import Contacts from "@/src/components/Contacts";
+import Service from "@/src/components/Service";
 import {
   CodingSkills,
   DesignSkills,
@@ -35,14 +35,14 @@ const Index2 = () => {
         <div className="background-filter circle">
           <div
             className="background-img"
-            style={{ backgroundImage: "url(images/girl3.jpg)" }}
+            style={{ backgroundImage: "url(images/man3.jpg)" }}
           />
         </div>
       </div>
 
       {/* sections */}
       <Started />
-      {/* <About />
+      <About />
       <Service />
       <Pricing />
       <Experience />
@@ -53,7 +53,7 @@ const Index2 = () => {
       <Testimonials />
       <Clients />
       <Works />
-      <Contacts /> */}
+      <Contacts />
     </Layout>
   );
 };

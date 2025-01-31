@@ -15,7 +15,7 @@ const Testimonials = () => {
             <SwiperSlide className="item">
               <div className="reviews-item">
                 <div className="image">
-                  <img src="images/rev1.png" alt="" />
+                  <img src="images/review-1.jpg" alt="" />
                 </div>
                 <div className="info">
                   <div className="name">Joseph Mackey</div>
@@ -31,7 +31,7 @@ const Testimonials = () => {
             <SwiperSlide className="item">
               <div className="reviews-item">
                 <div className="image">
-                  <img src="images/rev1.png" alt="" />
+                  <img src="images/review-1.jpg" alt="" />
                 </div>
                 <div className="info">
                   <div className="name">James Green</div>
@@ -47,7 +47,7 @@ const Testimonials = () => {
             <SwiperSlide className="item">
               <div className="reviews-item">
                 <div className="image">
-                  <img src="images/rev1.png" alt="" />
+                  <img src="images/review-1.jpg" alt="" />
                 </div>
                 <div className="info">
                   <div className="name">Joseph Mackey</div>
@@ -63,7 +63,7 @@ const Testimonials = () => {
             <SwiperSlide className="item">
               <div className="reviews-item">
                 <div className="image">
-                  <img src="images/rev1.png" alt="" />
+                  <img src="images/review-1.jpg" alt="" />
                 </div>
                 <div className="info">
                   <div className="name">James Green</div>

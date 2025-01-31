@@ -41,14 +41,14 @@ const IndexVideo = () => {
   }, []);
   return (
     <Layout>
-      {/* Background */}
+      
       <div
         className="background-bg jarallax-video"
-        data-jarallax-video="https://youtu.be/S4L8T2kFFck"
+        data-jarallax-video="https://youtu.be/7_WuTK9fH9Y?si=ggc6JFK6EBafuXuN"
       />
-      {/* sections */}
+   
       <Started />
-      {/* <About />
+      <About />
       <Service />
       <Pricing />
       <Experience />
@@ -59,7 +59,7 @@ const IndexVideo = () => {
       <Testimonials />
       <Clients />
       <Works />
-      <Contacts /> */}
+      <Contacts />
     </Layout>
   );
 };

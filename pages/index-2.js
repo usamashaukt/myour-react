@@ -1,6 +1,6 @@
-// import About from "@/src/components/About";
-// import Contacts from "@/src/components/Contacts";0
-// import Service from "@/src/components/Service";
+import About from "@/src/components/About";
+import Contacts from "@/src/components/Contacts";
+import Service from "@/src/components/Service";
 import {
   CodingSkills,
   DesignSkills,
@@ -30,30 +30,28 @@ const Testimonials = dynamic(() => import("@/src/components/Testimonials"), {
 const Index2 = () => {
   return (
     <Layout>
-     
+
       <div className="background-bg">
         <div className="background-filter gradient">
           <div
             className="background-img"
-            style={{ backgroundImage: "url(images/man2.jpg)" }}
+            style={{ backgroundImage: "url(images/student-home2.jpg)" }}
           />
         </div>
       </div>
-
-      
       <Started />
-      {/* <About /> */}
-      {/* <Service /> */}
-      {/* <Pricing /> */}
-      {/* <Experience /> */}
-      {/* <Education /> */}
-      {/* <DesignSkills /> */}
-      {/* <LanguagesSkills /> */}
-      {/* <CodingSkills /> */}
-      {/* <Testimonials /> */}
-      {/* <Clients /> */}
-      {/* <Works /> */}
-      {/* <Contacts /> */}
+      <About />
+      <Service />
+      <Pricing />
+      <Experience />
+      <Education />
+      <DesignSkills />
+      <LanguagesSkills />
+      <CodingSkills />
+      <Testimonials />
+      <Clients />
+      <Works />
+      <Contacts />
     </Layout>
   );
 };

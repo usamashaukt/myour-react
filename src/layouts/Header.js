@@ -17,22 +17,22 @@ const Menu = () => (
           </Link>
         </li>
         <li className="menu-item">
-          <Link legacyBehavior href="//">
+          <Link legacyBehavior href="/index-2">
             <a>Home 2</a>
           </Link>
         </li>
         <li className="menu-item">
-          <Link legacyBehavior href="//">
+          <Link legacyBehavior href="/index-3">
             <a>Home 3</a>
           </Link>
         </li>
         <li className="menu-item">
-          <Link legacyBehavior href="//">
+          <Link legacyBehavior href="/index-slider">
             <a>Home Slider</a>
           </Link>
         </li>
         <li className="menu-item">
-          <Link legacyBehavior href="//">
+          <Link legacyBehavior href="/index-video">
             <a href="index-video">Home Video</a>
           </Link>
         </li>

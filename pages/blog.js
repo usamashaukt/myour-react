@@ -30,7 +30,7 @@ const Blog = () => {
       </div>
       <div className="section blog with-sidebar">
         <div className="content">
-          {/* blog items */}
+         
           <div className="blog-items cols">
             <div className="blog-col">
               <div className="blog-item content-box">
@@ -68,7 +68,7 @@ const Blog = () => {
                 </div>
               </div>
             </div>
-            {/* Repeat for other blog items */}
+           
           </div>
           <div className="content-sidebar">
             <aside id="secondary" className="widget-area">

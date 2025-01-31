@@ -5,10 +5,9 @@
 @import "swiper/css/effect-fade";
 @import "swiper/css/effect-creative";
 
-/* coustom css */
+
 html {
-  scroll-behavior: smooth;
-}
+scroll-behavior: smooth;}
 
 .mobileHeader {
   display: none;
@@ -41,7 +40,6 @@ html {
 img.mfp-img {
   box-shadow: 0 0 8px rgb(0 0 0 / 60%);
   position: absolute;
-  /* max-height: 392px; */
   width: 100%;
   padding: 0 !important;
   top: 50%;
