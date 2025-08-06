@@ -1,5 +1,6 @@
 import About from "@/src/components/About";
 import Contacts from "@/src/components/Contacts";
+import { useEffect, useState } from "react";
 
 import {
   CodingSkills,
@@ -28,14 +29,27 @@ const Testimonials = dynamic(() => import("@/src/components/Testimonials"), {
   ssr: false,
 });
 const Index = () => {
+  const [imageLoaded, setImageLoaded] = useState(false);
+
+  useEffect(() => {
+    const img = new Image();
+    img.src = "images/bg-portfolio.webp";
+    img.onload = () => {
+      setImageLoaded(true);
+    };
+  }, []);
+
   return (
     <Layout>
   
       <div className="background-bg">
         <div className="background-filter">
           <div
-            className="background-img"
-            style={{ backgroundImage: "url(images/bg-portfolio.webp)" }}
+            className={`background-img ${imageLoaded ? 'loaded' : ''}`}
+            style={{ 
+              backgroundImage: imageLoaded ? "url(images/bg-portfolio.webp)" : "none",
+              backgroundColor: imageLoaded ? "transparent" : "#373b40"
+            }}
           />
         </div>
       </div>

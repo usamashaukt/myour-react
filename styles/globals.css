@@ -127,3 +127,16 @@ img.mfp-img {
   opacity: 1;
   visibility: visible;
 }
+
+/* Lazy loading for background image */
+.background-img {
+  opacity: 0;
+  transition: opacity 0.8s ease-in-out;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+.background-img.loaded {
+  opacity: 1;
+}
