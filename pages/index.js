@@ -35,7 +35,7 @@ const Index = () => {
         <div className="background-filter">
           <div
             className="background-img"
-            style={{ backgroundImage: "url(images/bg-portfolio.jpg)" }}
+            style={{ backgroundImage: "url(images/bg-portfolio.webp)" }}
           />
         </div>
       </div>
