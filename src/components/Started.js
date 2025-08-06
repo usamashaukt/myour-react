@@ -7,8 +7,8 @@ const Started = () => {
         <div className="vertical-center">
           {/* title */}
           <h1 className="h-title">
-            Joé <br />
-            Wilson
+            Usama <br />
+            Shaukat
           </h1>
           {/* content started */}
           <div className="started-content">
@@ -22,12 +22,12 @@ const Started = () => {
             </div>
             {/* text */}
             <div className="h-text">
-              Hello! I am Web Developer from United States, New York. I have
+              Hello! I am Web App Developer from Paksitan, Islamabad. I have
               rich experience in web site design and building, also I am good at
-              wordpress. I love to talk with you about our unique.
+              React Native, React.js, Next.js, Node.JS. I love to talk with you about your unique idea.
             </div>
             {/* button */}
-            <a href="#" className="btn">
+            <a href="#section-contacts" className="btn">
               <span className="animated-button">
                 <span>Contact Me</span>
               </span>

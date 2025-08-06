@@ -6,7 +6,7 @@ const Contacts = () => {
           <div className="title">Contact</div>
           <div className="subtitle">Let's talk</div>
         </div>
-     
+
         <div className="contact-form">
           <form id="cform" method="post">
             <div className="group-val">
@@ -16,7 +16,7 @@ const Contacts = () => {
               <input
                 type="text"
                 name="name"
-                placeholder="ej.: Genoveva Lian Hullt"
+                placeholder="ej.: Micheal John"
               />
             </div>
             <div className="group-val">
@@ -53,31 +53,31 @@ const Contacts = () => {
           </div>
         </div>
         <div className="contact-info">
-          <div className="name">Joe Wilson</div>
-          <div className="subname">Consultant &amp; Mentor</div>
+          <div className="name">Usama Shaukat</div>
+          <div className="subname">Web Developer</div>
           <div className="info-list">
             <ul>
               <li>
-                <strong>Age:</strong> 24
+                <strong>Age:</strong> 27
               </li>
               <li>
-                <strong>Residence:</strong> USA
+                <strong>Residence:</strong> Pakistan
               </li>
               <li>
                 <strong>Freelance:</strong> Available
               </li>
               <li>
-                <strong>Address:</strong> San Francisco
+                <strong>Address:</strong> Islamabad
               </li>
               <li>
-                <strong>Phone:</strong> +1 256 254 84 56
+                <strong>Phone:</strong>  +92-328-5085930
               </li>
-              <li>
-                <strong>E-mail:</strong> alejandroa@gmail.com
+              <li className="important-whitespace" >
+                <strong >E-mail:</strong> usamashaukat36@gmail.com
               </li>
             </ul>
           </div>
-          <div className="author">Joe Wilson</div>
+          <div className="author">Usama Shaukat</div>
         </div>
         <div className="clear" />
       </div>

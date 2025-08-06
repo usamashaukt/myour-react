@@ -123,7 +123,7 @@
 	transform: translateY(calc(16px * -1));
 }
 
-.header .top-menu ul li.menu-item-has-children>a:after {
+/* .header .top-menu ul li.menu-item-has-children>a:after {
 	content: "\f078";
 	margin-left: 5px;
 	position: relative;
@@ -139,7 +139,7 @@
 	font-variant: normal;
 	text-rendering: auto;
 	line-height: 1;
-}
+} */
 
 .header .top-menu-nav .sub-menu,
 .header .top-menu-nav .children {
@@ -4151,8 +4151,10 @@ span.post-page-numbers {
 
 .page-numbers.prev:before,
 .page-numbers.next:after,
-.nav-links .nav-previous a:before,
-.nav-links .nav-next a:after {
+.nav-links .nav-previous a:before
+
+/* .nav-links .nav-next a:after { */
+	{
 	content: '\f105';
 	position: relative;
 	top: -1px;

@@ -1,6 +1,6 @@
 import About from "@/src/components/About";
 import Contacts from "@/src/components/Contacts";
-import Service from "@/src/components/Service";
+
 import {
   CodingSkills,
   DesignSkills,
@@ -35,23 +35,23 @@ const Index = () => {
         <div className="background-filter">
           <div
             className="background-img"
-            style={{ backgroundImage: "url(images/student-bg.jpg)" }}
+            // style={{ backgroundImage:  }
           />
         </div>
       </div>
 
       <Started />
       <About />
-      <Service />
-      <Pricing />
+      {/* <Service /> */}
+      {/* <Pricing /> */}
       <Experience />
-      <Education />
+      {/* <Education /> */}
       <DesignSkills />
       <LanguagesSkills />
       <CodingSkills />
-      <Testimonials />
-      <Clients />
-      <Works />
+      {/* <Testimonials /> */}
+      {/* <Clients /> */}
+      {/* <Works /> */}
       <Contacts />
     </Layout>
   );

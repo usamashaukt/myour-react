@@ -14,53 +14,51 @@ const Experience = () => {
           <Swiper {...sliderProps.experience}>
             <SwiperSlide className="item">
               <div className="resume-item active">
-                <div className="date">Present</div>
+                <div className="date">2022 - 2023</div>
                 <div className="name">
-                  The Turin <br />
-                  Olympics
+                  Senior Frontend Engineer, <br /> Inxeption (ISL, Codify)
                 </div>
                 <div className="single-post-text">
                   <p>
-                    Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.
-                    Sed fringilla mauris sit amet nibh. Donec sodales sagittis
-                    magna.
+                  Developed custom web components using React and integrated third-party libraries for seamless functionality. Built advanced features such as real-time notifications, interactive maps with geolocation, and responsive UI components optimized for performance across modern browsers.
                   </p>
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide className="item">
               <div className="resume-item">
-                <div className="date">2016-2018</div>
+                <div className="date"> 2019 -2020</div>
                 <div className="name">
-                  Red <br />
-                  Drifting
+                  FullStack Engineer,<br /> Keyvent (ISL, CCE)
                 </div>
                 <div className="single-post-text">
                   <p>
-                    Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.
-                    Sed fringilla mauris sit amet nibh. Donec sodales sagittis
-                    magna.
+                    Built dynamic dashboards and enterprise applications using Vue.js and React.js.
+                    Worked with Node.js on backend integrations, ensuring seamless client-server interactions.
                   </p>
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide className="item">
               <div className="resume-item">
-                <div className="date">2014-2016</div>
+                <div className="date"> 2020 -2023 </div>
                 <div className="name">
-                  World <br />
-                  Economy
+                  Full Stack Engineer(Team Lead) ,<br /> NavaTec Gmbh (Germany
+                  ,Onsite/remote)
+
                 </div>
                 <div className="single-post-text">
                   <p>
-                    Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.
-                    Sed fringilla mauris sit amet nibh. Donec sodales sagittis
-                    magna.
+                    Led the design and development of React Native apps with seamless integrations into
+                    existing native ecosystems.
+                    Delivered high-performance iOS applications using Swift and ObjectiHealthKit, Core Data, and Background Processing for fitness apps.
+
+
                   </p>
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide className="item">
+            {/* <SwiperSlide className="item">
               <div className="resume-item">
                 <div className="date">2012-2014</div>
                 <div className="name">
@@ -91,7 +89,7 @@ const Experience = () => {
                   </p>
                 </div>
               </div>
-            </SwiperSlide>
+            </SwiperSlide> */}
           </Swiper>
           {/* navigation */}
           <div className="navs">

@@ -2,78 +2,7 @@ import { useEffect } from "react";
 import { createSkillsDot, dotResize } from "../utils";
 
 export const DesignSkills = () => {
-  return (
-    <div className="section skills" id="section-skills">
-      <div className="content">
-        {/* title */}
-        <div className="titles">
-          <div className="title">Design Skills</div>
-          <div className="subtitle">Creative ability</div>
-        </div>
-        {/* skills items */}
-        <div className="skills percent">
-          <ul>
-            <li>
-              <div className="name">Web Layout</div>
-              <div className="single-post-text">
-                <p>
-                  Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.
-                  Sed fringilla mauris sit amet nibh.
-                </p>
-              </div>
-              <div className="progress">
-                <div className="percentage" style={{ width: "90%" }}>
-                  <span className="percent">90%</span>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div className="name">Illustrations</div>
-              <div className="single-post-text">
-                <p>
-                  Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.
-                  Sed fringilla mauris sit amet nibh.
-                </p>
-              </div>
-              <div className="progress">
-                <div className="percentage" style={{ width: "70%" }}>
-                  <span className="percent">70%</span>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div className="name">Photoshop</div>
-              <div className="single-post-text">
-                <p>
-                  Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.
-                  Sed fringilla mauris sit amet nibh.
-                </p>
-              </div>
-              <div className="progress">
-                <div className="percentage" style={{ width: "95%" }}>
-                  <span className="percent">95%</span>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div className="name">Graphic Design</div>
-              <div className="single-post-text">
-                <p>
-                  Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.
-                  Sed fringilla mauris sit amet nibh.
-                </p>
-              </div>
-              <div className="progress">
-                <div className="percentage" style={{ width: "85%" }}>
-                  <span className="percent">85%</span>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  );
+
 };
 
 export const LanguagesSkills = () => {
@@ -97,8 +26,9 @@ export const LanguagesSkills = () => {
               <div className="name">English</div>
               <div className="single-post-text">
                 <p>
-                  Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.
-                  Sed fringilla mauris sit amet nibh.
+                  Proficient in reading, writing, and communication.
+                  Skilled in professional and creative content creation.
+                  Strong command of grammar, vocabulary, and fluency.
                 </p>
               </div>
               <div className="progress">
@@ -107,48 +37,8 @@ export const LanguagesSkills = () => {
                 </div>
               </div>
             </li>
-            <li>
-              <div className="name">German</div>
-              <div className="single-post-text">
-                <p>
-                  Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.
-                  Sed fringilla mauris sit amet nibh.
-                </p>
-              </div>
-              <div className="progress">
-                <div className="percentage" style={{ width: "70%" }}>
-                  <span className="percent">70%</span>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div className="name">Italian</div>
-              <div className="single-post-text">
-                <p>
-                  Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.
-                  Sed fringilla mauris sit amet nibh.
-                </p>
-              </div>
-              <div className="progress">
-                <div className="percentage" style={{ width: "55%" }}>
-                  <span className="percent">55%</span>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div className="name">French</div>
-              <div className="single-post-text">
-                <p>
-                  Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.
-                  Sed fringilla mauris sit amet nibh.
-                </p>
-              </div>
-              <div className="progress">
-                <div className="percentage" style={{ width: "85%" }}>
-                  <span className="percent">85%</span>
-                </div>
-              </div>
-            </li>
+           
+
           </ul>
         </div>
       </div>
@@ -156,115 +46,127 @@ export const LanguagesSkills = () => {
   );
 };
 
+
 export const CodingSkills = () => {
   return (
     <div className="section skills" id="section-skills-code">
       <div className="content">
-        {/* title */}
         <div className="titles">
           <div className="title">Coding Skills</div>
           <div className="subtitle">Developing on</div>
         </div>
-        {/* skills items*/}
         <div className="skills circles">
+         
           <ul>
-            <li>
-              <div className="progress p90">
-                {" "}
-                {/* p90 = 90% circle fill color */}
-                <div className="percentage" />
-                <span>90%</span>
-                <div className="slice">
-                  <div className="bar"></div>
-                  <div className="fill"></div>
-                </div>
-              </div>
-              <div className="name">WordPress</div>
-              <div className="single-post-text">
-                <p>Etiam sit amet orci eget eros faucibus tincidunt.</p>
-              </div>
-            </li>
-            <li>
-              <div className="progress p75">
-                {" "}
-                {/* p75 = 75% circle fill color */}
-                <div className="percentage" />
-                <span>75%</span>
-                <div className="slice">
-                  <div className="bar"></div>
-                  <div className="fill"></div>
-                </div>
-              </div>
-              <div className="name">PHP, MYSQL</div>
-              <div className="single-post-text">
-                <p>Etiam sit amet orci eget eros faucibus tincidunt.</p>
-              </div>
-            </li>
-            <li>
-              <div className="progress p85">
-                {" "}
-                {/* p85 = 85% circle fill color */}
-                <div className="percentage" />
-                <span>85%</span>
-                <div className="slice">
-                  <div className="bar"></div>
-                  <div className="fill"></div>
-                </div>
-              </div>
-              <div className="name">JavaScript</div>
-              <div className="single-post-text">
-                <p>Etiam sit amet orci eget eros faucibus tincidunt.</p>
-              </div>
-            </li>
-            <li>
-              <div className="progress p80">
-                {" "}
-                {/* p80 = 80% circle fill color */}
-                <div className="percentage" />
-                <span>80%</span>
-                <div className="slice">
-                  <div className="bar"></div>
-                  <div className="fill"></div>
-                </div>
-              </div>
-              <div className="name">Angular</div>
-              <div className="single-post-text">
-                <p>Etiam sit amet orci eget eros faucibus tincidunt.</p>
-              </div>
-            </li>
+           
+
             <li>
               <div className="progress p95">
-                {" "}
-                {/* p95 = 95% circle fill color */}
-                <div className="percentage" />
+                <div className="percentage"></div>
                 <span>95%</span>
                 <div className="slice">
                   <div className="bar"></div>
                   <div className="fill"></div>
                 </div>
               </div>
-              <div className="name">HTML, CSS</div>
+              <div className="name">Frontend</div>
               <div className="single-post-text">
-                <p>Etiam sit amet orci eget eros faucibus tincidunt.</p>
+                <p>React.js, React Native, Next.js, Vue.js, Angular, HTML5, CSS3, JavaScript, TypeScript</p>
               </div>
             </li>
+
+            <li>
+              <div className="progress p85">
+                <div className="percentage"></div>
+                <span>85%</span>
+                <div className="slice">
+                  <div className="bar"></div>
+                  <div className="fill"></div>
+                </div>
+              </div>
+              <div className="name">Backend</div>
+              <div className="single-post-text">
+                <p>Node.js, Express.js, RESTful APIs, GraphQL</p>
+              </div>
+            </li>
+
+            <li>
+              <div className="progress p80">
+                <div className="percentage"></div>
+                <span>80%</span>
+                <div className="slice">
+                  <div className="bar"></div>
+                  <div className="fill"></div>
+                </div>
+              </div>
+              <div className="name">Database</div>
+              <div className="single-post-text">
+                <p>MongoDB, MySQL, PostgreSQL</p>
+              </div>
+            </li>
+
+            <li>
+              <div className="progress p85">
+                <div className="percentage"></div>
+                <span>85%</span>
+                <div className="slice">
+                  <div className="bar"></div>
+                  <div className="fill"></div>
+                </div>
+              </div>
+              <div className="name">Tools & Libraries</div>
+              <div className="single-post-text">
+                <p>Redux, Webpack, Babel, Tailwind CSS, Bootstrap, Material-UI</p>
+              </div>
+            </li>
+
+            <li>
+              <div className="progress p75">
+                <div className="percentage"></div>
+                <span>75%</span>
+                <div className="slice">
+                  <div className="bar"></div>
+                  <div className="fill"></div>
+                </div>
+              </div>
+              <div className="name">Testing</div>
+              <div className="single-post-text">
+                <p>Jest, Cypress, Mocha, Enzyme</p>
+              </div>
+            </li>
+
             <li>
               <div className="progress p90">
-                {" "}
-                {/* p90 = 90% circle fill color */}
-                <div className="percentage" />
+                <div className="percentage"></div>
                 <span>90%</span>
                 <div className="slice">
                   <div className="bar"></div>
                   <div className="fill"></div>
                 </div>
               </div>
-              <div className="name">Python</div>
+              <div className="name">Version Control</div>
               <div className="single-post-text">
-                <p>Etiam sit amet orci eget eros faucibus tincidunt.</p>
+                <p>Git, GitHub, Bitbucket</p>
+              </div>
+            </li>
+
+            <li>
+              <div className="progress p80">
+                <div className="percentage"></div>
+                <span>80%</span>
+                <div className="slice">
+                  <div className="bar"></div>
+                  <div className="fill"></div>
+                </div>
+              </div>
+              <div className="name">Other</div>
+              <div className="single-post-text">
+                <p>CI/CD pipelines, Agile, AWS, Firebase, Vercel</p>
               </div>
             </li>
           </ul>
+
+
         </div>
       </div>
     </div>

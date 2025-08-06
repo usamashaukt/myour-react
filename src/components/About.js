@@ -9,55 +9,32 @@ const About = () => {
         </div>
         {/* text */}
         <div className="cols">
-          <div className="col">
+          <div className="col " style={{ width: "100%" }}> 
             <div className="single-post-text">
               <p>
-                Pellentesque posuere. Praesent turpis. Aenean posuere, tortor
-                sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin
-                urna dolor sagittis lacus.
+                Frontend-focused Full Stack Developer with 7+ years of experience building responsive, userfriendly
+
+                web and mobile applications. Proficient in React Native, React.js, Next.js, Vue.js, and
+                Angular, with strong skills in creating scalable and maintainable frontend architectures,
+                implementing different design patterns, and integrating APIs. Experienced in integrating APIs with
+                Node.js and delivering custom solutions. Top Rated Plus freelancer on Upwork with 2000+ hours
+                logged, known for delivering high-quality, user-centric applications on time
               </p>
             </div>
           </div>
-          <div className="col">
-            <div className="single-post-text">
-              <p>
-                Pellentesque posuere. Praesent turpis. Aenean posuere, tortor
-                sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin
-                urna dolor sagittis lacus.
-              </p>
-            </div>
-          </div>
-          <div className="col col-full">
-            <div className="single-post-text">
-              <p>
-                Pellentesque posuere. Praesent turpis. Aenean posuere, tortor
-                sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin
-                urna dolor sagittis lacus. Donec elit libero, sodales nec,
-                volutpat a, suscipit non, turpis.
-              </p>
-            </div>
-          </div>
+        
         </div>
         {/* info list */}
         <div className="info-list">
           <ul>
             <li>
-              <strong>Age:</strong> 24
+              <strong>Age:</strong> 27
             </li>
             <li>
-              <strong>Residence:</strong> USA
+              <strong>Phone:</strong> +92-328-5085930
             </li>
             <li>
-              <strong>Freelance:</strong> Available
-            </li>
-            <li>
-              <strong>Address:</strong> San Francisco
-            </li>
-            <li>
-              <strong>Phone:</strong> +1 256 254 84 56
-            </li>
-            <li>
-              <strong>E-mail:</strong> alejandroa@gmail.com
+              <strong>E-mail:</strong> usamashaukat36@gmail.com
             </li>
           </ul>
         </div>
