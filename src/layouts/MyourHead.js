@@ -17,7 +17,7 @@ const MyourHead = () => {
       <meta property="og:description" content="Full Stack Web Developer specializing in React.js, Next.js, React Native, and Node.js. Based in Islamabad, Pakistan." />
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://usama-portfoli.netlify.app/" />
-      <meta property="og:image" content="https://usama-portfoli.netlify.app/images/logo.png" />
+      <meta property="og:image" content="https://usama-portfoli.netlify.app/images/link-preview.jpg" />
       <meta property="og:site_name" content="Usama Shaukat Portfolio" />
       
       {/* Twitter Card Meta Tags */}
