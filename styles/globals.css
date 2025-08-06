@@ -83,3 +83,47 @@ img.mfp-img {
   white-space: pre-wrap !important;
 
 }
+
+/* Custom tooltips for social media icons */
+.footer .socials a {
+  position: relative;
+}
+
+.footer .socials a::before {
+  content: attr(data-tooltip);
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  transform: translateY(-50%);
+  background: transparent;
+  color: #68e0cf;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 1000;
+  margin-right: 22px;
+}
+
+.footer .socials a::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  transform: translateY(-50%);
+  border: 5px solid transparent;
+  border-left-color: #68e0cf;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  margin-right: 17px;
+}
+
+.footer .socials a:hover::before,
+.footer .socials a:hover::after {
+  opacity: 1;
+  visibility: visible;
+}

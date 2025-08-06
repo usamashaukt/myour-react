@@ -9,7 +9,7 @@ const TypingAnimation = ({ data }) => {
     const typed = new Typed(el.current, {
       strings: data
         ? data
-        : ["React.js", "React Native", "Next.js", "Node.JS"], // Strings to display
+        : [ "React.js", "Node", "Next.js", "HTML", "CSS", "Bootstrap", "TypeScript", "Tailwind", "MongoDB"], // Strings to display
       typeSpeed: 100,
       backSpeed: 100,
       backDelay: 100,

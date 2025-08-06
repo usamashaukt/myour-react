@@ -57,9 +57,9 @@ const Contacts = () => {
           <div className="subname">Web Developer</div>
           <div className="info-list">
             <ul>
-              <li>
+              {/* <li>
                 <strong>Age:</strong> 27
-              </li>
+              </li> */}
               <li>
                 <strong>Residence:</strong> Pakistan
               </li>
