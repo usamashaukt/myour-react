@@ -33,7 +33,7 @@ const Index = () => {
 
   useEffect(() => {
     const img = new Image();
-    img.src = "images/bg-portfolio.webp";
+    img.src = "images/hero-port.webp";
     img.onload = () => {
       setImageLoaded(true);
     };
