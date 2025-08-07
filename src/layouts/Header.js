@@ -103,7 +103,10 @@ const MobileHeader = () => {
         </a>
       </div>
       {/* menu button */}
-      <a href="#" className="menu-btn" onClick={() => setToggle(!toggle)}>
+      <a href="#" className="menu-btn" onClick={(e) => {
+        e.preventDefault();
+        setToggle(!toggle);
+      }}>
         <span />
       </a>
       {/* download cv button */}
