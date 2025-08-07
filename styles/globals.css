@@ -128,6 +128,29 @@ img.mfp-img {
   visibility: visible;
 }
 
+/* Mobile tooltip positioning - show above instead of left */
+@media (max-width: 768px) {
+  .footer .socials a::before {
+    top: auto;
+    bottom: 100%;
+    right: 50%;
+    transform: translateX(50%);
+    margin-right: 0;
+    margin-bottom: 0px !important;
+  }
+  
+  .footer .socials a::after {
+    top: auto;
+    bottom: 100%;
+    right: 50%;
+    transform: translateX(50%);
+    border-left-color: transparent;
+    border-top-color: #68e0cf;
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+}
+
 /* Lazy loading for background image */
 .background-img {
   opacity: 0;
