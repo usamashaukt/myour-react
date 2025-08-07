@@ -47,7 +47,7 @@ const Index = () => {
           <div
             className={`background-img ${imageLoaded ? 'loaded' : ''}`}
             style={{ 
-              backgroundImage: imageLoaded ? "url(images/bg-portfolio.webp)" : "none",
+              backgroundImage: imageLoaded ? "url(images/hero-port.webp)" : "none",
               backgroundColor: imageLoaded ? "transparent" : "#373b40"
             }}
           />
